@@ -3,13 +3,32 @@
   width: 90%;
   margin: 2rem auto;
   animation: meals-appear 1s ease-out forwards;
+  background-color: antiquewhite;
+  border-radius: 10px;
 }
 
 .meals ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 3;
 }
+/* .meals li {
+  padding-bottom: 0.5rem;
+  
+}
+.meals h2 {
+  font-size: medium;
+  font-weight: bold;
+}
+.meals h3 {
+  font-size: medium;
+  font-weight: bold;
+  color: brown;
+}
+.meals h4 {
+  font-size: small;
+  font-style: italic;
+} */
 
 @keyframes meals-appear {
   from {
