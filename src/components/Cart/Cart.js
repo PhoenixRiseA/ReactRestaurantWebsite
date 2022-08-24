@@ -18,7 +18,7 @@ const Cart = (props) => {
   };
 
   const increaseItemCountHandler = (item) => {
-    cartContext.addItem(item);
+    cartContext.addItemFromCart(item);
   };
   const data = cartContext.items.map((item) => (
     <CartItem
